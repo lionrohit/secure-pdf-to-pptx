@@ -1,0 +1,26 @@
+# 📄 Secure PDF to Editable PowerPoint Converter
+
+A privacy-focused, local-first tool designed for journalists and researchers to convert sensitive PDF news documents into editable PowerPoint (.pptx) presentations.
+
+## 🌟 Why this tool?
+Most online converters upload your documents to a cloud server, which poses a security risk for confidential or leaked materials. This tool is built to run **locally** on your machine's resources, ensuring your data never leaves your environment during processing.
+
+## ✨ Key Features
+- **Editable Text:** Unlike other tools that just turn PDF pages into images, this extracts text into real, editable PowerPoint text boxes.
+- **Privacy-First:** No trackers, no uploads, and no data logging.
+- **Optimized for Mac:** Specifically designed to run efficiently on MacBook M1/M2/M3 architecture.
+- **Zero Cost:** 100% free to use for the journalism community.
+
+## 🛠️ Built With
+- [Python 3.13+](https://www.python.org/)
+- [Streamlit](https://streamlit.io/) - Web Interface
+- [pdfminer.six](https://github.com/pdfminer/pdfminer.six) - Secure Text Extraction
+- [python-pptx](https://python-pptx.readthedocs.io/) - PowerPoint Generation
+
+## 🚀 How to Use
+1. **Upload:** Drag and drop your secret PDF file into the secure uploader.
+2. **Convert:** Click the "Convert to Editable PPTX" button.
+3. **Download:** Save the resulting presentation directly to your laptop.
+
+## ⚖️ Privacy Policy
+This application processes files in your browser's local memory. We do not store, view, or share any of the files you upload.
