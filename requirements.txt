@@ -1,3 +1,4 @@
 streamlit
 pdfminer.six
 python-pptx
+pdf2image
